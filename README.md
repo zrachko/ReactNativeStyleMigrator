@@ -35,10 +35,10 @@ node styleMigrator.js
 - Transform inline styles to StyleSheet references
 - Create/update localStyles in each file
 - Preserve your original code formatting
-- 
+
 ## 🛠️ Configuration
 
-- The script works with zero configuration, but you can customize:
+##### The script works with zero configuration, but you can customize:
 
 - localStyles name by changing the constant in the script
 Style naming convention by modifying generateStyleName function
@@ -66,10 +66,6 @@ const localStyles = StyleSheet.create({
 ## 🤝 Contributing
 
 Contributions are welcome! Please open an issue or PR for any improvements.
-
-## 📜 License
-
-MIT
 
 ## 📋 Script Description
 
